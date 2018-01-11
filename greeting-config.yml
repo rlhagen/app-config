@@ -1,3 +1,12 @@
+spring:
+  application:
+    name: greeting-config
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
 security:
   basic:
     enabled: false # turn of securing our application endpoints
