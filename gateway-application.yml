@@ -6,4 +6,5 @@ zuul:
   prefix: /api
   routes:
     fortune:
+      path: /fortune/**
       serviceId: fortune-service
