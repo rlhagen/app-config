@@ -2,6 +2,10 @@
 #  client:
 #    register-with-eureka: false
 
+ribbon:
+  eureka:
+    enabled: true
+
 zuul:
   routes:
     fortune:
