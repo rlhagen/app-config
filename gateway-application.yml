@@ -1,7 +1,3 @@
-security:
-  basic:
-    enabled: false
-
 zuul:
   prefix: /api
   routes:
