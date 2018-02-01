@@ -4,6 +4,6 @@ security:
 
 zuul:
   prefix: /api
-    routes:
-      fortune:
-        serviceId: fortune-service
+  routes:
+    fortune:
+      serviceId: fortune-service
