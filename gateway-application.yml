@@ -2,9 +2,9 @@ eureka:
   client:
     register-with-eureka: false
 
-zuul:
-  prefix: /api
-  routes:
-    fortune:
-      path: /fortune/**
-      serviceId: fortune-service
+#zuul:
+#  prefix: /api
+#  routes:
+#    fortune:
+#      path: /fortune/**
+#      serviceId: fortune-service
